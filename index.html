@@ -6,10 +6,11 @@
   <body>
     <main>
     <script id="post-template" type = "text/x-lodash-template">
-    <div id="article">
-    <div id="header"></div>
-    <div id="footer"></div>
-    </div>
+    <article>
+    <header><%- title %></header>
+    <p><%- body %></p>
+    <footer><%- poster %></footer>
+    </article>
     </script>
     <script id="page-template" type ="text/x-lodash-template">
     <div id="sidebar"></div>
